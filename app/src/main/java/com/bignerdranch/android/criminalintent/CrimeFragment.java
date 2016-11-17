@@ -1,7 +1,6 @@
 package com.bignerdranch.android.criminalintent;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -13,7 +12,8 @@ import android.widget.EditText;
  * Created by Jonathan on 11/13/2016.
  */
 
-public class CrimeFragment extends Fragment {
+//This class extends anroid.app.Fragment instead of android.support.v4.app.Fragment
+public class CrimeFragment extends android.app.Fragment {
     private Crime mCrime;
     private EditText mTitleField;
 
